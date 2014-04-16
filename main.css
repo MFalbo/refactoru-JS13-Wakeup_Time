@@ -6,12 +6,62 @@
 .outer-shell{
 	width: 70%;
 	height: 400px;
-	background-color: #333;
+	background-color: #111;
 	margin: 0 auto;
 }
 
 .inner-shell{
 	width: 80%;
-	height: 150px;
+	height: 250px;
 	background-color: #000;
+	margin: 0 auto;
+}
+
+.pm-label{
+	color: #FFF;
+	display: inline-block;
+}
+
+.auto-label{
+	color: #FFF;
+	display: inline-block;
+}
+
+.clock-screen{
+	background-color: #850000;
+	width: 80%;
+	height: 150px;
+	display: inline-block;
+}
+
+.indicator{
+	background-color: #F00;
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+}
+
+.clock-text{
+	color: #F00;
+	font-size: 100px;
+}
+
+.am-label{
+	color: #FFF;
+	display: inline-block;
+}
+
+.am-freq{
+	color: #FFF;
+	display: inline-block;
+}
+
+.fm-label{
+	color: #FFF;
+	display: inline-block;
+}
+
+.fm-freq{
+	color: #FFF;
+	display: inline-block;
 }
