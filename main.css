@@ -4,34 +4,45 @@
 }
 
 .outer-shell{
-	width: 70%;
-	height: 400px;
-	background-color: #111;
+	width: 80%;
+	height: 500px;
+	background-color: #222;
 	margin: 0 auto;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
 }
 
 .inner-shell{
 	width: 80%;
-	height: 250px;
+	height: 350px;
 	background-color: #000;
-	margin: 0 auto;
+	position: relative;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
 }
+
 
 .pm-label{
 	color: #FFF;
-	display: inline-block;
+	margin-top: 0;
+	margin-bottom: 100px;
 }
 
 .auto-label{
 	color: #FFF;
-	display: inline-block;
+	margin-bottom: 0;
 }
 
 .clock-screen{
 	background-color: #850000;
 	width: 80%;
 	height: 150px;
-	display: inline-block;
+	position: relative;
+	text-align: center;
+	margin-right: 50px;
+	border-radius: 5px;
 }
 
 .indicator{
@@ -39,16 +50,41 @@
 	height: 20px;
 	width: 20px;
 	border-radius: 20px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.pm-indicator{
+	top: 0;
+	left:0;
 }
 
 .clock-text{
 	color: #F00;
 	font-size: 100px;
+	margin-top: 0;
+}
+
+.am-container{
+	position: absolute;
+	left: 0;
+	bottom: 50px;
+	width: 100%;
+}
+
+.fm-container{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
 
 .am-label{
 	color: #FFF;
 	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .am-freq{
@@ -59,6 +95,8 @@
 .fm-label{
 	color: #FFF;
 	display: inline-block;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .fm-freq{
